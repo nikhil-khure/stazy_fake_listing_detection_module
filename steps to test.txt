@@ -1,0 +1,13 @@
+1)E:\fake_listing_detection_module>python -m venv venv
+
+E:\fake_listing_detection_module>venv\Scripts\activate
+ 2)python app.py
+
+3)liveliness check url : http://127.0.0.1:5000/verify-liveness 
+input : form-data : video = video file
+
+4)verify owner with room listing : http://127.0.0.1:5000/verify-owner
+owner img = img file
+room + owner image = img file
+
+ctr + c to stop server

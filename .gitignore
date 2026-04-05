@@ -1,0 +1,57 @@
+# ======================
+# Python (AI / Backend)
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+lib/
+.venv/
+
+# Environment variables
+.env
+
+# Model / large files (optional)
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# ======================
+# Node.js (Frontend)
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
+dist/
+build/
+
+# ======================
+# Java (Spring Boot Backend)
+# ======================
+target/
+*.jar
+*.war
+*.log
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE files
+# ======================
+.vscode/
+.idea/
+*.iml
