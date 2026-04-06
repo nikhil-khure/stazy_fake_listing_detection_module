@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: stazy_fake_listing_detection_module
+    name: stazy-fake-listing_detection_module
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
-    runtime: python
-    pythonVersion: 3.10.13
